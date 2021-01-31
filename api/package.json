@@ -1,0 +1,28 @@
+{
+  "name": "Memorandum-nodejs-server",
+  "version": "1.0.0",
+  "description": "Memorandum backend nodejs express mongodb",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.bundle.js",
+    "build": "webpack",
+    "dev": "nodemon ./app.js localhost 3080"
+  },
+  // "repository": {
+  //   "type": "git",
+  //   "url": ""
+  // },
+  "author": "Ian Bennett",
+  "license": "ISC",
+  // "homepage": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "http-proxy-middleware": "^1.0.4",
+    
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "webpack": "^4.43.0"
+  }
+}

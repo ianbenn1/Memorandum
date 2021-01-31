@@ -1,0 +1,26 @@
+.header .header-content .left img.icon{
+    height: 150px;
+}
+.header .header-content {
+    height: 150px;
+    background-color: darkgray;
+    display: flex;
+    flex-direction: row;
+}
+
+.header .header-content .right {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 35px;
+    width: 100%;
+}
+
+.header .header-content .right div {
+    display: flex;
+    flex-direction: row;
+}
+
+.header .header-content .right .bottom {
+    margin: 0 auto;
+}
